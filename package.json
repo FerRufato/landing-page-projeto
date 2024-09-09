@@ -1,0 +1,19 @@
+{
+  "name": "minha-landing-page",
+  "version": "1.0.0",
+  "description": "Uma landing page exemplo usando Gulp.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp --gulpfile gulpfile.mjs",
+    "start": "gulp"
+  },
+  "author": "Seu Nome",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.78.0"
+  }
+}

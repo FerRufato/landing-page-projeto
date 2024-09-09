@@ -1,0 +1,66 @@
+.hero {
+  padding: 5.6vw;
+  min-height: 100vh; 
+  background: url('../images/hero_rei_leao.webp');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;  
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+    padding-top: 10px
+  }
+
+  &__branding {
+    font-size: 20px;
+  }
+
+  &__subtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+}
+
+
+.buy {
+  margin-top: 20px;
+
+  &__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+  }
+
+  &__links__item {
+    display: inline-block;
+  }
+
+  &__links__item__button {
+    padding: 20px 20px;
+    background-color: #007aff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    width: auto; 
+  
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #005bb5;
+    }
+  }
+}
+
+
+
+
+
+
