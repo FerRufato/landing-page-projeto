@@ -22,8 +22,8 @@
                </ul>
         </div>
     </header>
-    <section class="hero">
-        <div style="opacity: 0.2;" class="opacity"></div>
+    
+    <section class="hero">       
         <div class="hero__content">
           <img src="./src/img/o rei leao.webp" alt="logo rei leao">           
         </div>
@@ -31,143 +31,134 @@
             <ul class="buy__links">
                 <li class="buy__links__item">
                     <a class="buy__links__item__button" href="#">OBTER DISNEY+</a>
+                </li>                
+        </nav>
+        <section class="shows">
+            <nav class="shows__tabs">
+                <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                    Em breve
+                </button>
+                <button data-tab-button="populares" class="shows__tabs__button">
+                    Mais populares
+                </button>
+                <button data-tab-button="star_plus" class="shows__tabs__button">
+                    Mais no Star+
+                </button>
+            </nav>
+            <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+                <li class="shows__list__item">
+                    <img src="./dist/images/leao 1.webp" alt="leao 1">
                 </li>
-                
-        </nav>
-    </section>
-    <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shows</title>
-    <link rel="stylesheet" href="./dist/css/styles.css">
-</head>
-<body>
-    <section class="shows">
-        <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-                Em breve
-            </button>
-            <button data-tab-button="populares" class="shows__tabs__button">
-                Mais populares
-            </button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">
-                Mais no Star+
-            </button>
-        </nav>
-        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
-            <li class="shows__list__item">
-                <img src="./dist/images/leao 1.webp" alt="leao 1">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/leao 2.webp" alt="leao 2">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/leao 3.webp" alt="leao 3">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/leao 4.webp" alt="leao 4">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/leao 5.webp" alt="leao 5">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/leao 6.webp" alt="leao 6">
-            </li>
-        </ul>
-        <ul data-tab-id="populares" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Obi Wan">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-        </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Libertadores">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
-            </li>
-        </ul>
-    </section>
-    <footer class="footer">
-        <div class="footer__container">
-          <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
-          <ul class="footer_-links">
-              <li class="footer__links__item">
-                  <div class="language-selector">
-                      <img src="./dist/images/icones/globe.svg" alt="globo do mundo ">
-                      <select>
-                         <option>English</option> 
-                         <option selected>Português</option>
-                      </select>
-                  </div>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Termo e Condições de Uso</a>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Politica de privacidade</a>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Proteção de dados no Brasil </a>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Anúncios personalizados</a>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Dispositivos Compativeis</a>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Ajuda</a>
-              </li>
-              <li class="footer__links__item">
-                  <a href="#" class="text--small">Sobre o Disney+</a>
-              </li>
-          </ul>
-          <p class="text--small">
-              ® 2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
-          </p>
-          <p class="text--small">
-              Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado pelo Walt Disney Company (Brasil)ltda, World Trade Center. Av das nações Unidas, 12551, 12555, 12559, Piso 10, São Paulo SP , Cep 11700000, Brasil e CNPJ 26666666122145
-          </p>
-        </div>
-  
-      </footer>
+                <li class="shows__list__item">
+                    <img src="./dist/images/leao 2.webp" alt="leao 2">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/leao 3.webp" alt="leao 3">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/leao 4.webp" alt="leao 4">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/leao 5.webp" alt="leao 5">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/leao 6.webp" alt="leao 6">
+                </li>
+            </ul>
+            <ul data-tab-id="populares" class="shows__list">
+                <li class="shows__list__item">
+                    <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Obi Wan">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+            </ul>
+            <ul data-tab-id="star_plus" class="shows__list">
+                <li class="shows__list__item">
+                    <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Libertadores">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+                <li class="shows__list__item">
+                    <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="footer__container">
+              <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+              <ul class="footer_-links">
+                  <li class="footer__links__item">
+                      <div class="language-selector">
+                          <img src="./dist/images/icones/globe.svg" alt="globo do mundo ">
+                          <select>
+                             <option>English</option> 
+                             <option selected>Português</option>
+                          </select>
+                      </div>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Termo e Condições de Uso</a>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Politica de privacidade</a>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Proteção de dados no Brasil </a>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Anúncios personalizados</a>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Dispositivos Compativeis</a>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Ajuda</a>
+                  </li>
+                  <li class="footer__links__item">
+                      <a href="#" class="text--small">Sobre o Disney+</a>
+                  </li>
+              </ul>
+              <p class="text--small">
+                  ® 2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+              </p>
+              <p class="text--small">
+                  Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado pelo Walt Disney Company (Brasil)ltda, World Trade Center. Av das nações Unidas, 12551, 12555, 12559, Piso 10, São Paulo SP , Cep 11700000, Brasil e CNPJ 26666666122145
+              </p>
+            </div>
+      
+          </footer>
+    </section>   
+
+    
       
   
   <script src="./dist/js/main.js">
   </script>
   </body>
-  </html>
-  
+  </html> 
   
 
     <script src="./dist/js/main.js"> </script> 

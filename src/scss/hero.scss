@@ -13,7 +13,13 @@
     align-items: center;
     justify-content: center; 
     height: 100%; 
-    padding-top: 10px
+    padding-top: 10px;
+
+    img {
+      width: 100%;        /* Responsividade */
+      max-width: 600px;    /* Limita o tamanho máximo da imagem */
+      height: auto;        /* Altura proporcional */
+    }
   }
 
   &__branding {
@@ -24,8 +30,41 @@
     font-size: 1.2em;
     margin-top: 10px;
   }
-}
 
+  /* Estilos para telas menores */
+  @media (max-width: 768px) {
+    padding: 10vw;
+
+    &__branding {
+      font-size: 18px;
+    }
+
+    &__subtitle {
+      font-size: 1em;
+    }
+
+    &__content img {
+      max-width: 400px; /* Tamanho da imagem menor para telas menores */
+    }
+  }
+
+  /* Estilos para telas muito pequenas */
+  @media (max-width: 480px) {
+    padding: 15vw;
+
+    &__branding {
+      font-size: 16px;
+    }
+
+    &__subtitle {
+      font-size: 0.9em;
+    }
+
+    &__content img {
+      max-width: 300px; /* Tamanho da imagem ajustado para telas pequenas */
+    }
+  }
+}
 
 .buy {
   margin-top: 20px;
@@ -57,10 +96,20 @@
       background-color: #005bb5;
     }
   }
+
+  /* Estilos para telas menores */
+  @media (max-width: 768px) {
+    &__links__item__button {
+      padding: 15px 15px; /* Botões menores para telas pequenas */
+      font-size: 0.9rem;
+    }
+  }
+
+  /* Estilos para telas muito pequenas */
+  @media (max-width: 480px) {
+    &__links__item__button {
+      padding: 10px 10px; /* Botões ainda menores para telas muito pequenas */
+      font-size: 0.8rem;
+    }
+  }
 }
-
-
-
-
-
-
