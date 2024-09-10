@@ -4,7 +4,7 @@
   "description": "Uma landing page exemplo usando Gulp.",
   "main": "gulpfile.js",
   "scripts": {
-    "build": "gulp --gulpfile gulpfile.mjs",
+    "build": "gulp",
     "start": "gulp"
   },
   "author": "Seu Nome",
